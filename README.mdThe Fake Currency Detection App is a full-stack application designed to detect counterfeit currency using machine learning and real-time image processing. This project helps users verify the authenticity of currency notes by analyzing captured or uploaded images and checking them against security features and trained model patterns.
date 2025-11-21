@@ -1,12 +1,40 @@
-The Fake Currency Detection App is an intelligent digital system designed to identify counterfeit currency using machine learning and image processing techniques. The application enables users to upload or capture an 
-image of a currency note and automatically analyzes it to determine whether the note is genuine or fake. With increasing cases of currency fraud affecting financial institutions and the economy, this project aims to 
-provide a reliable and user-friendly solution to ensure currency safety and verification accuracy.
-The project is built using a React + Vite frontend that offers an intuitive and clean user interface, making the detection process fast and easy for end users. The backend is powered by Django, which handles 
-server-side processing, routing, and communication with the machine learning model. The system integrates Firebase APIs to manage authentication and store user feedback securely. A trained machine learning model 
-evaluates uploaded images based on security features such as texture patterns, watermark structure, print clarity, serial number alignment, and micro-print verification.
-Users can securely log in or sign up to the platform and then upload an image of a currency note for verification. Once submitted, the application processes the input and returns a result indicating whether the 
-currency appears to be "Genuine" or "Fake", allowing immediate decision-making. The app also includes a feedback feature, enabling users to submit suggestions or report detection issues to improve system accuracy.
-This project is developed with the goal of helping reduce circulation of counterfeit currency and supporting digital financial security. By using real-time analysis and modern web technologies, the Fake Currency
-Detection App brings an innovative solution to a critical problem affecting individuals, businesses, and government institutions.
-The application will continue evolving with future enhancements such as support for multiple currency types, improved AI accuracy with more datasets, and deployment as a mobile application for wider accessibility. 
-It is currently intended for educational and research purposes but has potential for real-world industry implementation.
+🪙 Fake Currency Detection App
+The Fake Currency Detection App is a full-stack application designed to detect counterfeit currency using machine learning and real-time image processing.
+This project helps users verify the authenticity of currency notes by analyzing captured or uploaded images and checking them against security features and trained model patterns.
+
+🚀 Features
+📸 Upload or capture currency image for verification
+🤖 Machine Learning model for detecting fake or real currency
+📊 Real-time prediction results displayed to user
+🔐 Secure authentication system (Login / Signup)
+💬 Feedback submission from users
+🌐 Frontend built with React + Vite
+🛠 Backend powered by Django / Python
+🗄 Firebase API integration
+☁ Hosted and connected with GitHub version control
+
+🎯 Purpose of the Project
+Fake currency circulation is a major issue affecting the financial system.
+This application aims to help users verify currency notes easily, supporting digital security and reducing economic fraud.
+
+📌 How It Works
+User uploads or captures an image of the currency note
+System processes the image with ML model and authentication markers
+App checks patterns, print quality, security lines, watermarks, etc.
+Result displayed as Genuine / Fake currency
+User may provide feedback after checking
+
+🌟 Future Enhancements
+Support detection for multiple currency types
+Mobile App version (React Native / Flutter)
+Improve model accuracy with more datasets
+Automatic scanning using phone camera
+
+🧠 Technology Stack
+Layer- Technology
+Frontend- ReactJS, , CSS
+Backend- Django, REST API
+ML Model-	(Trained ML model for currency detection)
+Database / Storage-	Firebase,PostgreSql
+Authentication-	Firebase Auth
+Version Control	-Git & GitHub
